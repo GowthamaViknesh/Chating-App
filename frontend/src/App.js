@@ -4,7 +4,7 @@ import HomePage from './Pages/Homepage';
 import Chatpage from './Pages/Chatpage';
 import axios from 'axios';
 
-axios.defaults.baseURL = 'http://localhost:5000';
+axios.defaults.baseURL = 'http://localhost:7000';
 
 function App() {
   return (

@@ -22,7 +22,7 @@ import animationData from '../Animations/animation.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFlickr } from '@fortawesome/free-brands-svg-icons';
 
-const ENDPOINT = 'http://localhost:5000';
+const ENDPOINT = 'http://localhost:7000';
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
